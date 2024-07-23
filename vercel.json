@@ -1,0 +1,13 @@
+{
+  "crons": [
+    {
+      "path": "/main",
+      "schedule": "0 5 24 * *"
+    }
+  ],
+  "functions": {
+    "main.js": {
+      "maxDuration": 30
+    }
+  }
+}
